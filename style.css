@@ -302,3 +302,18 @@ header > .container{
 
 }
 
+@media screen and (max-width: 460px){
+    .buttons{
+        justify-content: flex-start;
+    }
+    .btn-primary{
+        display: block;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .welcome .container .row .col-2 .buttons .btn-secondary {
+        display: block;
+        margin-left: 0px;
+    }
+}
